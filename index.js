@@ -158,6 +158,45 @@ function matchesFilter(example) {
   return true
 }
 
+function examplesView(examples) {
+  return m(
+    'ul.examples',
+    examples.filter(example => matchesFilter(example)).map(example =>
+      m(
+        'li.example',
+        {
+          title: example.description,
+        },
+        [
+          m(
+            'a.name',
+            {
+              href: example.link,
+            },
+            example.name
+          ),
+          exampleTagsView(example),
+          versionView(example),
+          authorView(example),
+        ]
+      )
+    )
+  )
+}
+
+function contributeView() {
+  return m('.contribute', [
+    'Something is missing? Add your own ',
+    m('a[href=https://flems.io/mithril]', 'flems'),
+    ' ',
+    m(
+      'a[href=https://github.com/StephanHoyer/how-to-mithril/blob/master/examples.json]',
+      'here'
+    ),
+    '.',
+  ])
+}
+
 const app = {
   oninit: async function() {
     examples = await m.request(`${baseUrl}examples.json`)
@@ -170,32 +209,7 @@ const app = {
       version: params.version || '',
       author: params.author || '',
     }
-    return [
-      currentFilterView(),
-      m(
-        'ul.examples',
-        examples.filter(example => matchesFilter(example)).map(example =>
-          m(
-            'li.example',
-            {
-              title: example.description,
-            },
-            [
-              m(
-                'a.name',
-                {
-                  href: example.link,
-                },
-                example.name
-              ),
-              exampleTagsView(example),
-              versionView(example),
-              authorView(example),
-            ]
-          )
-        )
-      ),
-    ]
+    return [currentFilterView(), examplesView(examples), contributeView()]
   },
 }
 

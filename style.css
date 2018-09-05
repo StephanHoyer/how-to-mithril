@@ -78,3 +78,7 @@ a.version,
 .example > a.name {
   color: #1e5799;
 }
+
+.contribute {
+  margin-left: 1rem;
+}
