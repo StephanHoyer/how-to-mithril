@@ -7,6 +7,27 @@ body {
   padding-left: 1rem;
 }
 
+.q {
+  padding: 0.2rem 1.5rem 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid silver;
+  margin-left: 1rem;
+}
+
+.clear {
+  border-radius: 1rem;
+  background: silver;
+  width: 1rem;
+  height: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin-left: -1.1rem;
+  vertical-align: middle;
+}
+
 .currentTags > .tag:hover:after {
   content: '×';
   color: white;
