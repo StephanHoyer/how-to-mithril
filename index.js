@@ -1,22 +1,33 @@
 const baseUrl = document.location.pathname
 let examples = []
 
-function tagsView(tags) {
+function tagView(tag, href) {
+  return m(
+    'li.tag',
+    m(
+      'a',
+      {
+        href,
+        oncreate: m.route.link,
+      },
+      tag
+    )
+  )
+}
+
+function currentTagsView(tags) {
   return m(
     'ul.tags.currentTags',
-    tags.map(tag =>
-      m(
-        'li.tag',
-        m(
-          'a',
-          {
-            href: getTagHref(tags.filter(t => tag !== t)),
-            oncreate: m.route.link,
-          },
-          tag
-        )
-      )
-    )
+    tags.map(tag => tagView(tag, getTagHref(tags.filter(t => tag !== t))))
+  )
+}
+
+function exampleTagsView(example, currentTags) {
+  return m(
+    'ul.tags',
+    example.tags
+      .filter(tag => !currentTags.includes(tag))
+      .map(tag => tagView(tag, getTagHref(currentTags.concat(tag))))
   )
 }
 
@@ -33,9 +44,8 @@ const app = {
     const hasAllTags = example =>
       !currentTags.length ||
       currentTags.every(tag => example.tags.includes(tag))
-    const isNotCurrentTag = tag => !currentTags.includes(tag)
     return [
-      tagsView(currentTags),
+      currentTagsView(currentTags),
       m(
         'ul.examples',
         examples.filter(hasAllTags).map(example =>
@@ -52,22 +62,7 @@ const app = {
                 },
                 example.name
               ),
-              m(
-                'ul.tags',
-                example.tags.filter(isNotCurrentTag).map(tag =>
-                  m(
-                    'li.tag',
-                    m(
-                      'a',
-                      {
-                        href: getTagHref(currentTags.concat(tag)),
-                        oncreate: m.route.link,
-                      },
-                      tag
-                    )
-                  )
-                )
-              ),
+              exampleTagsView(example, currentTags),
             ]
           )
         )
