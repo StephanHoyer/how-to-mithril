@@ -30,6 +30,7 @@ input.q {
   vertical-align: middle;
 }
 
+.version:hover:after,
 .currentTags > .tag:hover:after {
   content: '×';
   color: white;
