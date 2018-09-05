@@ -5,7 +5,8 @@ const KEY_CODE_ESC = 27
 function getHrefByFilter(filter) {
   return (
     (filter.tags.length ? `/tags/${filter.tags.join(',')}` : '') +
-    (filter.q ? `/q/${filter.q}` : '')
+    (filter.q ? `/q/${filter.q}` : '') +
+    (filter.version ? `/version/${filter.version}` : '')
   )
 }
 
@@ -13,12 +14,12 @@ function tagView(tag, filter) {
   return m('li.tag', linkView(filter, tag))
 }
 
-function linkView({ className, tags, q }, children) {
+function linkView({ className, tags, q, version }, children) {
   return m(
     'a',
     {
       className: className || '',
-      href: getHrefByFilter({ tags, q }),
+      href: getHrefByFilter({ tags, q, version }),
       oncreate: m.route.link,
     },
     children
@@ -59,18 +60,38 @@ function currentFilterView(currentFilter) {
         })
       )
     ),
+    currentFilter.version &&
+      linkView(
+        Object.assign({}, currentFilter, {
+          className: 'version',
+          version: '',
+        }),
+        currentFilter.version
+      ),
   ]
 }
 
 function exampleTagsView(example, currentFilter) {
   return m(
     'ul.tags',
-    example.tags.filter(tag => !currentFilter.tags.includes(tag)).map(tag =>
+    example.tags.map(tag =>
       tagView(tag, {
         q: currentFilter.q,
-        tags: currentFilter.tags.concat(tag),
+        tags: currentFilter.tags.includes(tag)
+          ? currentFilter.tags
+          : currentFilter.tags.concat(tag),
       })
     )
+  )
+}
+
+function versionView(example, currentFilter) {
+  return linkView(
+    Object.assign({}, currentFilter, {
+      className: 'version',
+      version: example.mithrilVersion,
+    }),
+    example.mithrilVersion
   )
 }
 
@@ -90,6 +111,9 @@ function matchesFilter(example, filter) {
   ) {
     return false
   }
+  if (filter.version && example.mithrilVersion !== filter.version) {
+    return false
+  }
   return true
 }
 
@@ -101,6 +125,7 @@ const app = {
     const currentFilter = {
       tags: attrs.tags ? attrs.tags.split(',') : [],
       q: attrs.q || '',
+      version: attrs.version,
     }
     return [
       currentFilterView(currentFilter),
@@ -116,13 +141,14 @@ const app = {
               },
               [
                 m(
-                  'a',
+                  'a.name',
                   {
                     href: example.link,
                   },
                   example.name
                 ),
                 exampleTagsView(example, currentFilter),
+                versionView(example, currentFilter),
               ]
             )
           )
@@ -133,7 +159,10 @@ const app = {
 
 m.route(document.body, '/', {
   '/': app,
-  '/tags/:tags/q/:q': app,
-  '/q/:q': app,
   '/tags/:tags': app,
+  '/tags/:tags/q/:q': app,
+  '/tags/:tags/q/:q/version/:version': app,
+  '/q/:q': app,
+  '/q/:q/version/:version': app,
+  '/version/:version': app,
 })

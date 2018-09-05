@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 .tags {
@@ -7,7 +8,8 @@ body {
   padding-left: 1rem;
 }
 
-.q {
+input.q {
+  font-size: 16px;
   padding: 0.2rem 1.5rem 0.2rem 0.5rem;
   border-radius: 0.2rem;
   border: 1px solid silver;
@@ -38,6 +40,7 @@ body {
   background: #ff4136;
 }
 
+a.version,
 .tag {
   background: silver;
   display: inline-block;
@@ -50,6 +53,11 @@ body {
   font-weight: bold;
 }
 
+a.version {
+  background: #3d9970;
+}
+
+a.version,
 .tag > a {
   color: white;
   text-decoration: none;
@@ -60,6 +68,6 @@ body {
   padding-left: 1rem;
 }
 
-.example > a {
+.example > a.name {
   color: #1e5799;
 }
