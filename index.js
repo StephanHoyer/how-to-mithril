@@ -21,7 +21,7 @@ function tagsView(tags) {
 }
 
 function getTagHref(tags) {
-  return `/${tags.join(',')}`
+  return `/tags/${tags.join(',')}`
 }
 
 const app = {
@@ -76,7 +76,7 @@ const app = {
   },
 }
 
-m.route(document.body, baseUrl, {
+m.route(document.body, '/', {
   '/': app,
-  '/:tags': app,
+  '/tags/:tags': app,
 })
