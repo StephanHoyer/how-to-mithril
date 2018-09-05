@@ -3,11 +3,20 @@ let examples = []
 const KEY_CODE_ESC = 27
 let currentFilter = {}
 
+function parseParams(filterString = '') {
+  return filterString.split('/').reduce((params, filter) => {
+    const [key, value] = filter.split('=')
+    params[key] = value
+    return params
+  }, {})
+}
+
 function getRouteByFilter(filter) {
   return (
-    (filter.tags.length ? `/tags/${filter.tags.join(',')}` : '') +
-    (filter.q ? `/q/${filter.q}` : '') +
-    (filter.version ? `/version/${filter.version}` : '')
+    (filter.tags.length ? `/tags=${filter.tags.join(',')}` : '') +
+    (filter.q ? `/q=${filter.q}` : '') +
+    (filter.version ? `/version=${filter.version}` : '') +
+    (filter.author ? `/author=${filter.author}` : '')
   )
 }
 
@@ -62,10 +71,18 @@ function currentFilterView() {
     currentFilter.version &&
       linkView(
         {
-          className: 'version',
+          className: 'version current',
           version: '',
         },
         currentFilter.version
+      ),
+    currentFilter.author &&
+      linkView(
+        {
+          className: 'author current',
+          author: '',
+        },
+        currentFilter.author
       ),
   ]
 }
@@ -103,6 +120,16 @@ function versionView(example) {
   )
 }
 
+function authorView(example) {
+  return linkView(
+    {
+      className: 'author',
+      author: example.author,
+    },
+    example.author
+  )
+}
+
 function matchesFilter(example) {
   if (
     currentFilter.tags.length &&
@@ -125,6 +152,9 @@ function matchesFilter(example) {
   ) {
     return false
   }
+  if (currentFilter.author && example.author !== currentFilter.author) {
+    return false
+  }
   return true
 }
 
@@ -133,10 +163,12 @@ const app = {
     examples = await m.request(`${baseUrl}examples.json`)
   },
   view: ({ attrs }) => {
+    const params = parseParams(attrs.filter)
     currentFilter = {
-      tags: attrs.tags ? attrs.tags.split(',') : [],
-      q: attrs.q || '',
-      version: attrs.version,
+      tags: params.tags ? params.tags.split(',') : [],
+      q: params.q || '',
+      version: params.version || '',
+      author: params.author || '',
     }
     return [
       currentFilterView(),
@@ -158,6 +190,7 @@ const app = {
               ),
               exampleTagsView(example),
               versionView(example),
+              authorView(example),
             ]
           )
         )
@@ -168,10 +201,5 @@ const app = {
 
 m.route(document.body, '/', {
   '/': app,
-  '/tags/:tags': app,
-  '/tags/:tags/q/:q': app,
-  '/tags/:tags/q/:q/version/:version': app,
-  '/q/:q': app,
-  '/q/:q/version/:version': app,
-  '/version/:version': app,
+  '/:filter...': app,
 })

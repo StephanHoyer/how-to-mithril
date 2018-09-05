@@ -30,8 +30,9 @@ input.q {
   vertical-align: middle;
 }
 
-.version:hover:after,
-.currentTags > .tag:hover:after {
+.version.current:hover:after,
+.author.current:hover:after,
+.currentFilter > .tag:hover:after {
   content: '×';
   color: white;
   margin-left: 0.2rem;
@@ -42,6 +43,7 @@ input.q {
 }
 
 a.version,
+a.author,
 .tag {
   background: silver;
   display: inline-block;
@@ -57,7 +59,11 @@ a.version,
 a.version {
   background: #3d9970;
 }
+a.author {
+  background: #0074d9;
+}
 
+a.author,
 a.version,
 .tag > a {
   color: white;
