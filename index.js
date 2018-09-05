@@ -3,7 +3,7 @@ let examples = []
 
 function tagsView(tags) {
   return m(
-    'ul.tags',
+    'ul.tags.currentTags',
     tags.map(tag =>
       m(
         'li.tag',
@@ -37,10 +37,10 @@ const app = {
     return [
       tagsView(currentTags),
       m(
-        'ul',
+        'ul.examples',
         examples.filter(hasAllTags).map(example =>
           m(
-            'li',
+            'li.example',
             {
               title: example.description,
             },

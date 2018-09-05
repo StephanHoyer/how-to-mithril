@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tags {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+.currentTags > .tag:hover:after {
+  content: '×';
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.currentTags .tag:hover {
+  background: #ff4136;
+}
+
+.tag {
+  background: silver;
+  display: inline-block;
+  margin-right: 0.2rem;
+  padding: 0.1rem 0.2rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tag > a {
+  color: white;
+  text-decoration: none;
+}
+
+.examples {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.example > a {
+  color: #1e5799;
+}
