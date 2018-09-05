@@ -1,3 +1,4 @@
+const baseUrl = document.location.origin + document.location.pathname
 let examples = []
 
 function tagsView(tags) {
@@ -25,7 +26,7 @@ function getTagHref(tags) {
 
 const app = {
   oninit: async function() {
-    examples = await m.request('/examples.json')
+    examples = await m.request(`${baseUrl}examples.json`)
   },
   view: ({ attrs }) => {
     const currentTags = attrs.tags ? attrs.tags.split(',') : []
@@ -75,7 +76,7 @@ const app = {
   },
 }
 
-m.route(document.body, '/', {
+m.route(document.body, baseUrl, {
   '/': app,
   '/:tags': app,
 })
