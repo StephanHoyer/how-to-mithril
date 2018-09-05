@@ -1,4 +1,4 @@
-const baseUrl = document.location.origin + document.location.pathname
+const baseUrl = document.location.pathname
 let examples = []
 
 function tagsView(tags) {
