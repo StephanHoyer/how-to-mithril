@@ -27,9 +27,9 @@
     "dependencies": ["highchart"]
   },
   {
-    "name": "simple closure compoent",
+    "name": "simple closure component",
     "tags": ["component", "closure"],
-    "description": "A simple closure compent",
+    "description": "A simple closure component",
     "link": "  https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4hcYgAJqUWnACuAJxiSAvJIAUASjUA+ScAA6aSZNhS68hmskAGY6YeTlxJSaMnTkgG4QYAd0RNHVV9ZCcvSSwNAHIAEwhvGIoIyKjYwgBGZMkAAwBhWitiIIASYEsGVlytFM809JiAI3liYnoc4HoZCGoAayDtPWkihgBqMfZJQxAxmdrUyOjm1va0Tu6oXoHg4criAFoDqZmD+cXJLVSAXSdWY3u0Yyx8LFHiDTjaankcBnwmrQ4gBPCjSWQKZRaNgcECYHB4fDUOACGj0RjMHhsa5ULZoPoIFCcBE8LAQYiERTQSggJTkHgkYgABzgiAA9GyrEy+gBzJG0LBsskUqlQAACmXwkoArELyZToPh+DTiMCmdwQMr2MSNcKFVADhJlNgaXS8IyWezOWhuXy6IK9aLDcRjVgJVL8LY2UaYNglajVeq8FrrqwgA",
     "author": "@Osban",
     "mithrilVersion": "1.1.6",
