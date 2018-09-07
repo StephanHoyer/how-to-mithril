@@ -2,7 +2,7 @@
 
 Collection of examples how to do things in mithril
 
-see https://stephanhoyer.github.io/how-to-mithril
+see https://how-to-mithril.js.org/
 
 ## Contribute?
 
