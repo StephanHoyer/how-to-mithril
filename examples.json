@@ -45,6 +45,15 @@
     "dependencies": []
   },
   {
+    "name": "tab component",
+    "tags": ["components", "tab"],
+    "description": "Demonstration how to create a tab view, where tab toggle buttons communicate there activation state though a surrounding wrapper component using tab ids",
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAFQwCM4A6AKwQBoQBjAezQBcZm8G04mACANwhgB3APJhuAXj4SAfAB003PqVoALaABMATq2QAGALrcAZEe5MAngAcY9Mb2VqoWnQYcbtC8ZIDkYAK5otEwQjN7c8ooA-Eqq7i76bk4e3IjcABQAlDLcsUms8vIwAB6W9Jo86jBgGH5QPGnAGExMmnCIwBBoEMEYUBLcugC+g1ni0tzAEdywPBhBELww-Z3dEL1TM2bEcIr9uhswPJYYaDBQO5L7CuHXHFzchET9k9eK-EKpDdxcTTBUOY5nGh-k0Wm0JkxiP1ISQANSwwbcEbZKa7bhYNLeUiWAC0ACZvP8Xmi0bQoBg4OCYRIvNw5sFFqiSVFuN4iGVKppuOzNJycUQoH4liwikx+YKlpp6AFKupvEzmalvCp6ItNIgRWKBUKcn5WmUcaVOixNISFbtGGSILQANafUbjYnM3b0hZLSQw82KQZUc0+r0AuLA80ZX3XQZTKZ3HiPAAKJzOzyZ70En2A30hLH+uSBIOarVSwGpkmOp3O8MRyLG5uLtNdi2MphzHjD3sj120TD1CidbwEqakY3SNe2u0urZJpbOFwGE7R5pTojSvAyDQDjznJLjCagm+9GSZB-D8kGIBocDOMHmjAQiBAAGZdIgAIz3kA+9DYXB3ijUOiMFg2DvCAsFKcoHlHMApSwcIQFIAB6R44FkEAAG4CjQLBSCwaVmDSdR6FoPwcGYUh2XUcx-kybInU2OAIEqIgME0ABJOBhGsTxuGqc4YHbRRO27CZk37e0ZHNDEsSwHEABYzVeEkMRQlRn2wogcQADhQ-4UKQ1IAGF6FA3D1ByIzSlOZgdkEboVDM5hiiYFDQww510UxFQ8TU2TCVZJDuEYMwVCWWAwCYbwXIU+cot2DEkKo4ANwgoh4zLKtxmQANFEk0gwFgIp5LctEcry4pcvynEGCgUhBBxe8CT3Iq4uIf5vGEU4IsatzmqIVr8EEehOqyxS0iS7x8BUbQYCGmLmUi4bssxbCoFk7F8TIjkYE0HEVoahbYtG4hUrOVrDIc5huGOvp2umyKipG7cy1OgDWB4K6HgGmb7uKw6Up3Z7zrencHkmmBbq6kk7qKqHmX0ebZvc5VNA23ktuw8xNJmgNJM83zxtHTo6W+BiYCY00YZJbHMUsPGAHVbO4TAcFM6ltDALbWFoeA6TQUyVh6PpqUqMlmKaEI0CxhGergIl+bWKAlX6wafUUBokses50u4TKEcWrFcRklHOXR1apRlGB1FIOAVAwAjBEK76equokYSVG7vBV7wzsAoGy24d2Ke637nYhYhFc+z3vdey7gaVr7HeD-7Q6IRXQemyOXou96Jqm+O3Ph+76MY5i2I41hG32kqICKC3sU6HFkcseumDrtB+RqnFn3gryiAAcxxQQ1BYI2tod773KSosw9Zd3PYDiHmR6l3p-GiO+s+wOmt+5eU78tOPb6-fN7msNhsk9QFjHre2T8ZpGDWnvNuRs3edrvvxSFUhNQHofpqJfbFCWigNaO06QHTCV1s6IupMS7sU4v0AAhNAsmpdOIAKRAvXYnt8D0F7r3WAxNi7k2GsfbgcMQwTgjGgEY8gzz-lAtALaSA0C1F3CAC8sBrycDwPVRAAA2AAnO+fQNBgFoBtLeVAIAmbfhAFgWymhoB0L1FAPAKhmiWDaPBeCARLA2l7soIy8F5FMEmtAAAAqpVSfDjEKOgL+OhFhrB4DgLQRRlgmDvioJ+HAeBITQBsrzZQlJlGaFUXedRTBNGIG0bQdQaBfyVGAbwZGpwmDwTQJYLA8F-FQECeoWglJ4IXy4DkjAATOiW0KX+JxsiuDmFgMIwYQA",
+    "author": "@barneycarroll",
+    "mithrilVersion": "1.1.6",
+    "dependencies": ["tailwind.css"]
+  },
+  {
     "name": "styled components with bss and mithril",
     "tags": ["styling", "css"],
     "description": "Use bss like styled components, but way simpler",
