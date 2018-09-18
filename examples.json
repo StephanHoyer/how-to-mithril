@@ -45,6 +45,16 @@
     "dependencies": []
   },
   {
+    "name": "react integration",
+    "tags": ["lifecycle", "dom", "components"],
+    "description": "Integrate react components into a mithrl app",
+    "link": "https://flems.io/#0=N4Igxg9gdgzhA2BTEAucD4EMAONEBMQAaEAMwEskZUBtUKTAW2TQDoArakyKAF0T6pwWGDAAEAJUSYwvAMIRG2aAN5jEAD35R84qTN6sFSlXzHAAOlDFieMXgCcArrIgOAFAEpL1m2JhO2IgenlZ+YmF+vAAW5DCs9pj8YgC85rYQTmYoYgAMYgC+kUW+kQ4C+MFePuHlvE4O1jSR4QA82GIA1ogAnikWILkDAHwt4WIKWbw5wDFxCbxJiKyQUyXjYq0A9NjDRGM2B5sARk68vNBdvf0gAIwDYtBy8ORgnSnAXqnD6RsRvhs5vE8LwAMqLfjuYCrPg5IELJYrTJmADUYluBVCAL8BQKo2x4QAklAwOVmHwjttTudoPjwgBdYpWEpWOxqACy5BiDkoxmUUFUqTEXxSPxqYiQahg0QgAHdQU5jnzTGo0qRMPA8JEyoh6o1zGMAG7kRCynIin7NAliRjuADkWGOiHgdv21pstrt5Cg2DONF4PSCKTA0UQb2OEA09NdBvdfmgIcwUAA5ogcohvrG-uNpXKFUrFPzBWllosHKnDCGw918Edwus-pi3dm62I7VIdMFJNJZBkTAK+AB+O1HTzN8ZHT3HBx2sdHI65+WK5UDtQAMjX-2zntY+lkACEefhUzHxdmE+UljlDZmz9nuwYACIAeXZrHKnY8rT38kLKq2exiIarD4IoWL3oU44bJiYyMr4JQslAjCsIwyK8O4oFgE45KGBG+A9EQYictyvJ-qunjEOgSiUMEQjHJgTrwJReBILI5DQNQaAACy5CguQALRcQArHxIAFPSJAvFAnScXQIAMMwQiMFy0Q8kxJANExaDROcuAoFsWxZNgnTJkijBbMpJHwAAArcrB2QAbBZKlqRwXAgAGQRCDApLkNgvBiUQ9BMCwICXrIIGIIazoQNgOFuZRmlCDpvB6QZRkmWZWzhbwhmMPg2U9oYlTRfAsXxZwlGeaFPk8v5gXBYpaA5fxoHISVMVxaoCUaQ4WkgClaWGT6mWQOZLVtXlBUTYokWleV3WVSQ1Xeb59XiQUQA",
+    "author": "@barneycarroll",
+    "mithrilVersion": "1.1.6",
+    "dependencies": ["react"]
+  },
+  
+  {
     "name": "tab component",
     "tags": ["components", "tab"],
     "description": "Demonstration how to create a tab view, where tab toggle buttons communicate there activation state though a surrounding wrapper component using tab ids",
