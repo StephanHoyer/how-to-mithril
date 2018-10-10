@@ -121,5 +121,14 @@
     "author": "@spacejack",    
     "mithrilVersion": "1.1.6",
     "dependencies": []
+  },
+  {
+    "name": "Select2 integration",
+    "tags": ["jquery", "form", "select", "3rd-party"],
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvAHigjQGsACQgJxhgAvAB0QJYgAc4iAPSzqAEzQArOPmpRaAV0VgoGARtpZZGFRgAes9gCM4suDFjViAJlkAWfAAZ8ANgBaPmpfBTgHJxd3fCwODQixbgEoURA4YgBPWDhCGBhiJNkAPkp05xhXCHoERBAfRABGRp8QAF8KdGxcOvw1MroGJmI8QYzuAEFJSW4hbmARNG5uADcIGAB3RG4ACgBKWeLuLB2AckUIFdOKbmRF5eWT08lr7lOsTO4oyuJTvYp7g8nt9XK8FksHstMDhtqcMhhGHBroDIfRqAIETBtjtgIoTG0DkIjgASHZ4rB7fAg9z7FHcDq3OmPM60STEapoMGrDBQbRYt4TAAyp3pN1OEwMtmwGD+AIhkKerPZ9C5Kx5fNhAHUAJIihmnTUQOBjDh-OkAXT2gMtizaAG5FossLEdAwybRqNocAx8LZaIpMjcppI9mVqRzaiBPIg3I12p0QNCegRqBEBvRGMw6u1zVR2FxaqhE908HFiPxoGVtHxyHUJNI5LJtGhJJwAObGUxlitQAACjXwA-8sm7fGgfQQVCykmTxrHbPjXRweBUAEc+XxMlWa3h6zJ5M3Wx26KY1xvMr2AMz4a+NWQXDKyM8wTcTsrT2foiALjpL2cVVw3G3WtxGIKR9ybFt207RwAPcXtvD8IIQkHe8jWIJ9Ijgtw3ynTIZzwOdvxGNpzTaIA",
+    "author": "@kevinfiol_gitlab",    
+    "mithrilVersion": "1.1.6",
+    "dependencies": ["jquery"]
   }
+  
 ]
