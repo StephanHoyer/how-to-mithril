@@ -36,6 +36,15 @@
     "dependencies": []
   },
   {
+    "name": "grouped checkboxes",
+    "tags": ["form", "checkbox", "radiobutton"],
+    "description": "Form with multiple checkboxes that are grouped so that only on checkbox per group can be selected, like radio buttons",
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4hcYgAIoECZIC8k5AB00kpavXrgUDACMYURJOUgAjKYqSA5gCdaAVwAOASQAmxgAztNWnfsNjUwAmSxt7Z3cvHzU-XQMjExAAVjC7R1cPSW9fAF0KXxVY7XjApIAWNIjM4zMYrUl-BKCQAGYqjKjJOryC2KKGprLTADYOyKzg+riAxNMAdnGaySm81VzVVXEpLFo3QwUlDbQt+jlqQhhqAGs9WgAPADUIGAB3Q4AKYHSJq1KoVgASgUAD5Gr5tpILldrjA3IddvsoMgfplcgp5Ip-r5bDBiA5bGosB8AOT-El9BrEkkQNBOBzEZDEACeThg8mhNzu91yFPBxS0nNhbkpDUk9AuGDQ1hgxg+wPkYMRhhR1Xc6MUQrhkgA-JISSTJMZ-qL1EDTdJZr5AapWJs0JDUc83ocMMRiLY4KDJNS3BAAG58t0euD4LAYJwfIXc52vQE2k4Os5SCNOQ7AXz+l6vOUKsEDLTUwhmPkkgDCly5DwA4tVJAAVeDEEmAi0yCRhiMfJ3Z1u+dTUpx85VQfCQKCMWwfe7e+6A-C8Wi00kUFt92LHO2JrBhxwMD5uWjUBw4Bj4O5uZlWVOAyg0WhYJzQGC2PB6WZ3uCGK7ECBnPDBIgZjJGwHAgJgOB4Pg1BwAI97CMwPD-I0kh+nATi6Myxi0jIaAwAAtHoUBHtckisJ+37UL+-48J4iCtGYbD5CAuHXAgKCcJBPBYBAxCELY0B3gS5A8CQxBOHAiAAPRSQ4dLXNY0EPlJPF8QJUAAAJmPg2nJCpvH8dAC5wSybJ4HA1ACU4oisLkrBAA",
+    "author": "@Osban",
+    "mithrilVersion": "1.1.6",
+    "dependencies": []
+  },
+  {
     "name": "lifecycle explorer",
     "tags": ["lifecycle", "oninit", "onupdate", "onremove", "oncreate", "onbeforeremove"],
     "description": "Interactive sandbox to check th order of mithrils life cycle events for nested dom structure",
