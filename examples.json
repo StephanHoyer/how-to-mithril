@@ -138,6 +138,14 @@
     "author": "@kevinfiol_gitlab",    
     "mithrilVersion": "1.1.6",
     "dependencies": ["jquery"]
-  }
-  
+  },
+  {
+    "name": "react refs in mithril",
+    "tags": ["dom", "react", "refs"],
+    "description": "Shows how access dom nodes of a component, much like reacts refs",
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4wAVzTViEegAJIaACYAlGGAAUS2lgpyATuoCUc4AB00cgzGLj9l7VnxYMxaoXgaABskNgAvAAkwH6sALpeJgD8co5yiLE6+ACO4jD6AJ4AyjCw0rT63r7qQSHq4ZFWFqwWFkJwxHIAshkAwjoADvQicv6mFlb01IauMBoAbmi0SjAm5pZWcvWNMsSwvQoQymqak9Mw+I56AOSrsMdGA4tnBw0ZsPh0UAUbx4ZKx1fsV+MQMADuGjmV0Whls9jkWA0x0IAEZjnpgNYwAlThA1jBjnJ2HJjhgAEbUC5faq1NBOLC0STELS0ajiHAMfD46YZPQtdpYLpoERGNgcECYHB4R5wAQ0eiMZg8NhhKhQLYAawQKE4wp4WHRhH00AAAgAmfAABmNAFp9NRjZQQHZyDwSMQOnBEAB6F2SDqKgDmjx0Ls1xG1esNJqN5stRv9Wp1UHw-GtxAyHW4IDgwwgHVE4VYQA",
+    "author": "@stephanhoyer",
+    "mithrilVersion": "1.1.6",
+    "dependencies": []
+  },  
 ]
