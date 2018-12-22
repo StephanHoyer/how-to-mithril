@@ -147,5 +147,14 @@
     "author": "@stephanhoyer",
     "mithrilVersion": "1.1.6",
     "dependencies": []
+  },
+ {
+    "name": "Modal",
+    "tags": ["modal", "dialog", "bulma"],
+    "description": "Modal using Bulma CSS framework",
+    "link": "https://flems.io/#0=N4IgtglgJlA2CmIBcAWA7AOgKwoDQgGd4EBjAF3imXAHsoBDWDMgkfAMwgVaQG1QAdvTCIktBkxZsQJGgIrzq7AK4DyEOQAIwdRgApZ8+PKSaCZAE4QBAc00AfbRgBqAuvACUm4Js0AdAV9Dc00ANwh4AHdNAF4A318wPQByDB0JTQgCAFp6dVD4ZNx4hMSUtN1YbIAjPIBrGwsaVSgi7005ElgIEjrTPS8YgD5tSoBhOTJ6a3gLDAt4HQKBzQBfD2LA0u1y9MZswwUyNqTU6poADzbD4zIPe4BuAJLgslGJCflpgVnYzSgaCRlCJ5BgSAt6BQAKIIEFkFJQCChZIeJ5bAFAuEYc5QACeGHoAAdCcYoGMABZcKB6PawT5TGYWVElMDzUmzGnjSbfWa4MIRSLMgSraREUhkDQCHggACcSAAjCBVrhBMJRCAMAArVj4G6KMSvd6Mem3P4s8oSsgIDDk+g5CgXMgHW6zShtZIAFQgVsKfJKZVSBGU1UtCHdBBoIk0ere5NdKKFAUNRMJf2AJXCUX6gxGpwwRHUcja-p2yWqyjIZDk2IrVYE+eDod9-i2vh8nW6vWzsVzlU5H0mty8ypLyQAyuSaNEALKVFEljwBVbPASsnSqeEY4G3bF0XF8lMeUXEeCFqXUeUAJiQl7QSoAuvhugI6jx+CAhCJqOXYGB6NJlAsWBqHJStCQIJAAHpINUQkGjBSNIJ-P8AAEAAYMEwS9IJIAgCCQ5Rf3oME8OkMhcRJahzFxBAlRVD81WoSAyHJKxYBQy8MAwtDsgsEgMAAZgAoCQLAiDoNg+DZDASDmNYrgOK4rjeP4gTZO9eSmG1MiKPVAhwQgQkyAfVYgA",
+    "author": "@mike-ward",    
+    "mithrilVersion": "2.0.0-rc.3",
+    "dependencies": ["bulma"]
   }
 ]
