@@ -31,7 +31,7 @@
     "tags": ["component", "closure"],
     "description": "A simple closure component",
     "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4hcYgAJqUWnACuAJxiSAvJIAUASjUA+ScAA6aSZNhS68hmskAGY6YeTlxJSaMnTkgG4QYAd0RNHVV9ZCcvSSwNAHIAEwhvGIoIyKjYwgBGZMkAAwBhWitiIIASYEsGVlytFM809JiAI3liYnoc4HoZCGoAayDtPWkihgBqMfZJQxAxmdrUyOjm1va0Tu6oXoHg4criAFoDqZmD+cXJLVSAXSdWY3u0Yyx8LFHiDTjaankcBnwmrQ4gBPCjSWQKZRaNgcECYHB4fDUOACGj0RjMHhsa5ULZoPoIFCcBE8LAQYiERTQSggJTkHgkYgABzgiAA9GyrEy+gBzJG0LBsskUqlQAACmXwkoArELyZToPh+DTiMCmdwQMr2MSNcKFVADhJlNgaXS8IyWezOWhuXy6IK9aLDcRjVgJVL8LY2UaYNglajVeq8FrrqwgA",
-    "author": "@Osban",
+    "author": "@osban",
     "mithrilVersion": "1.1.6",
     "dependencies": []
   },
@@ -40,7 +40,7 @@
     "tags": ["form", "checkbox", "radiobutton"],
     "description": "Form with multiple checkboxes that are grouped so that only on checkbox per group can be selected, like radio buttons",
     "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4hcYgAIoECZIC8k5AB00kpavXrgUDACMYURJOUgAjKYqSA5gCdaAVwAOASQAmxgAztNWnfsNjUwAmSxt7Z3cvHzU-XQMjExAAVjC7R1cPSW9fAF0KXxVY7XjApIAWNIjM4zMYrUl-BKCQAGYqjKjJOryC2KKGprLTADYOyKzg+riAxNMAdnGaySm81VzVVXEpLFo3QwUlDbQt+jlqQhhqAGs9WgAPADUIGAB3Q4AKYHSJq1KoVgASgUAD5Gr5tpILldrjA3IddvsoMgfplcgp5Ip-r5bDBiA5bGosB8AOT-El9BrEkkQNBOBzEZDEACeThg8mhNzu91yFPBxS0nNhbkpDUk9AuGDQ1hgxg+wPkYMRhhR1Xc6MUQrhkgA-JISSTJMZ-qL1EDTdJZr5AapWJs0JDUc83ocMMRiLY4KDJNS3BAAG58t0euD4LAYJwfIXc52vQE2k4Os5SCNOQ7AXz+l6vOUKsEDLTUwhmPkkgDCly5DwA4tVJAAVeDEEmAi0yCRhiMfJ3Z1u+dTUpx85VQfCQKCMWwfe7e+6A-C8Wi00kUFt92LHO2JrBhxwMD5uWjUBw4Bj4O5uZlWVOAyg0WhYJzQGC2PB6WZ3uCGK7ECBnPDBIgZjJGwHAgJgOB4Pg1BwAI97CMwPD-I0kh+nATi6Myxi0jIaAwAAtHoUBHtckisJ+37UL+-48J4iCtGYbD5CAuHXAgKCcJBPBYBAxCELY0B3gS5A8CQxBOHAiAAPRSQ4dLXNY0EPlJPF8QJUAAAJmPg2nJCpvH8dAC5wSybJ4HA1ACU4oisLkrBAA",
-    "author": "@Osban",
+    "author": "@osban",
     "mithrilVersion": "1.1.6",
     "dependencies": []
   },
@@ -109,7 +109,7 @@
   {
     "name": "demonstrate async and await around m.request",
     "tags": ["m.request", "async", "await"],
-    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvAHgBMIA3AAgjYF4AOiABOtWsWEA+FgHoOnKYLTdKIODFjViEegkQgADIgCMAVhABfCumy4D+AFYIqdBk2J43cYtwwAHCG5+bmBlbm5-DGJCRG4AchJifzhEWVlnen8oDGoYQlooNhgRfGIAT0C6Yvw6LHiKcO4AcxhiAAVaHzgACgBKUKaIkTaAVxEVLHwRgEdR+GIe4G5xqDiAAwASYACIfCiYy1l-LuI4de5LPqbLZVu0ZW9fE58ANQgYAHdg7iXuHWIsAo3AARrQ2OVLgN+FJuFgevEFA1uMgmvDEgAmZEA2B9YFohH+ZFgiHXNAAXTJjz0vk63R+YRUkVOqRR5MaTJKYhEcXiDSaTQwcHKaGo3HoEDQEEWwB80RgV0GTIixBEkMZEU13DljH2LJ+GE+GGlfkC+FaHRZ-SGl241Gi1EIvy5tBEAw1Wu1xHl+BdIh+fvwODgcAwrRt9wi1gFTM4H0+Sx1CvdNpGxHGKiTvpE3JtEQA-HDCcis36yZ7uHEsy8zkGAj0a+8vuXLndlMoplhaKMGD0xBJgXSzn0rDYQJgcHhaiG1G5GMwDFZ2SAoJKANb6VDjux4LDSwgiaBqVZ4JIpNKyHv+NfNWq0LCyPcxQ9QAACJnwH4AbI-9y+nC4IAVP49jqNQh7+J4ljLhOoGGsavhTLM8w+FYQA",
+    "link": "https://flems.io/#0=N4IgzgxgTg9gNnEAuA2gBgDRoLoZAMwEs4BTMZFUAOwEMBbE5EAOgAsAXOxPCGK9kvyYACEAF8M1eoyQsAVuR58BQ2byph2wmgAdCwgLzDgAHSrDhAcxLsACjE1gkwgBQBKQwD5hdZlBIAjgCuZOwuAOQc7DpOAPSxCnw6cDQQJKzwACYkUMzsAJ56vNnMvHSxOg7sYOFuZmJmZuqawvaOhq4eBt6m5sKkWpXtRijYZhYDwjmwUB3h4ePCi-7sQVDmvRYWfIRUhOzONGD5VBCdXsaLW9oA7jT72nrM1nZVYO5XW3msgi4AHhchtUOn86n1rqUaOwIKwXNMLtMYLMjNNmAwwGAaNYwdcJI1wcIAG6EEg3ZzuLyfCyIqBU4QAfh8ER04QwUygMxx12EziBYDRun+lIJ3KZ4UyhEJrLporoEVYACZWcI-nl9qQ3GyZdy5eEWWzVQAjGCZfJc0UWc3crkNKi2sy+OgwIL8FyZGAQIIMfjMY2mtltapuEB4MAkUgQdiEPjkWQKgBsSDQ4kkIFoDCYpQxIZA6hU7CY4lwIDguwA1rHKGnpEw6PtWFBiDm1ohZFEYkh4i6dGXLKUYOU6+wG8QAAIARmYk-jsSHI7gzAUOYKOhk4GghB0BbExfTa5odwevn8wVC4iAA",
     "author": "@viniciusCamargo",    
     "mithrilVersion": "1.1.6",
     "dependencies": []
