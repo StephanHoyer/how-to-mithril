@@ -165,6 +165,15 @@
     "author": "@stephanhoyer",
     "mithrilVersion": "2.0.0-rc.4",
     "dependencies": []
+  },
+  {
+    "name": "Declarative setInterval (using streams instead of hooks)",
+    "tags": ["hooks", "react", "streams", "setInterval", "declarative"],
+    "description": "A version of Dan Abramov's setInterval react hook using streams instead.  https://overreacted.io/making-setinterval-declarative-with-react-hooks/",
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10RAgZgBOANwxR8AKwRU6-ZjwD08gAQBZCMUIDoSulgAO9JsSUaMxgCa14aAOQXaSrAFdqhR7QEwThDGgA6aIpKTnBeGl7UULRwTp4mDqHGTnreXnDEnthwAUG+5qlK9MnmZl6EtLQA1vFK5hBgYAXmMFAYAJ5KZhkQAEZOjAFgTmjUxBD0SgCS-MKiABTAAUqdxBnZaKwAlItoyzLptS3tSgC8jvjpmVhzXQJw+M2tbZtLSzqZjNOMs1AAyhkwbBzR7tF67ZZKfBYDB6OYrNb4aiiKA9DDUapKMHLN6eYixXY7CGFNDFUqIJQLeF3JRbU4APkOTxuqzuDyOzwob2WQggMAA7uS5pt6UoSVAoG9WAEpf5AspdFgJv1tKZjHByk4oPk9AJaKielAOj0vHxHOpNNo6J4AvsLLq9AAlGB6QHEOCnJTuk4Mwk6egHWj9D1YC4AoFYz1QmFzLlKAAeIoTAEITmdA8QhUoAPyFfpzOPC8liqDY8ER3H43PEaUBHLKAAKuOIHXSeQwAnyl0BWD9WB6fDMHjr71dXgwnrDPdVShgWHU7pgQkEHQAPCC2gysOsgj0OnoMHA4HwAOZKNfshmmg+dCdXJTzlpgYd8iK+YJ6EqMAp8b4iEt8wgmHvYxXF8Y94Btf0QI+GAvkEP9-jvM5gXZYVvSUX1bXvfIzhDLsgQABgjLD02DUMriFN43nMe0nRdMw4BQp5NijWFY0zdDfSJSJAQEOCfjhCBzEzYVY2WddMxTUVNQlcEiQAMnk7CYzkolPRgYh+L-FS1LUjifTE3SqyY9ohQjIyIRDTwaIwPlKNU3SZQs5YKEZUzzLUjzlg8pzMSo8EKwEXZ0xrNBKBAUJYFGcY0AQHgABZ4sQABGAAmNgOBATAcDwCQpBoehGDkcBhmiiYAEE9FhbZSz2KC-WGYxcPI7s5iIt4sPXMj8OuABWAj2vBLD9xCGAcPOHq5jAURQgjDr6pG0JzAAEXZD1YzwycoUEcC5mQddXMWsaAF0WOhNiHIpfb2UOjBRvMU6RSO-Ic2LJRyS6pRYzBHENMrLilB5flBTQhlkEMoIVEDBgCl0Aw0CMCHlH3Q9712Hr3TgBxaHCAQlH3ARjFoRpwkB3k+S+y6giRXY4eiMc0E7Hw4lNUnMmipcJ1KQzri00RXMM5ZgDctpyWe1amS8iFXKRcVUXREGRToRq4WVhhMwAaiUZLMUpizfKJKXDNc64bEIZKbFcmwAGFoeMS2GvVzYjap5RoUqMJAJFtHvjRMYl2Nxw5jN1KHZsCX2nJB2TLaTNlGSgaiPwYhaAAMQgOMxrmZLhQ1mw4BsKWTeDvg9H6ZBmxdE4BDAmBjodwWIWFuc0CjhObEblzHAwOM28TgiO8uolXL-JwYA+9l7OcpRXPoUv+nJLx0IkmBk-bcDiHwUeYHKuAADknD7QRRKHiEDYhF3dKCd3Pa8LrFowA0YED029EHizi5sVpjSgd-nM-+exAK5tCrq4GA6Iei0DjPXAWp8iTCznmgMuxBF5PTuktOYq9iDrw0oiQC6IxqbBHqIMeYt0FZ2FOfXSUth42HrOQ8wf9qGGQ8sdSUoUAghkVCrSw1BD5GHwJA8wbRXKVT0JscKkVwFjH9HgVKBFEAADYMqcByjwREh5woyCKsQFgrBjpUCgHwSocVUBZS4HgOcGgtDkCoLEcgPASDED0HARAihhh6EqMeREtAsDyCsRaKAAABZK+BQmKP8eaGxeVwqV24BFagWg9C6PYKo+JASbEAFoerhXsXgJxLi3HyA8V4nxfiMnQGyZOIJqV8AETqfIHqMSqBxLwHARJEBkkqPMWokAPRNF2IEA4kABTXHuKQaU3Q8h+lwBCfgRR+AADM0zDzNJAK0ng7SkkpOOqwIAA",
+    "author": "@JAForbes",
+    "mithril-version": "1.1.6",
+    "dependencies": ["mithril-stream"]
   }
 ]
 
