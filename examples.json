@@ -62,7 +62,6 @@
     "mithrilVersion": "1.1.6",
     "dependencies": ["react"]
   },
-
   {
     "name": "tab component",
     "tags": ["components", "tab"],
@@ -148,7 +147,7 @@
     "mithrilVersion": "1.1.6",
     "dependencies": []
   },
- {
+  {
     "name": "Modal",
     "tags": ["modal", "dialog", "bulma"],
     "description": "Modal using Bulma CSS framework",
@@ -157,7 +156,7 @@
     "mithrilVersion": "2.0.0-rc.3",
     "dependencies": ["bulma"]
   },
-    {
+  {
     "name": "auto complete component",
     "tags": ["autocomplete", "forms", "input"],
     "description": "Autocomplete component with local options, conversion from a react example from https://blog.bitsrc.io/building-a-react-autocomplete-component-from-scratch-3f4d5618aa14",
@@ -176,6 +175,3 @@
     "dependencies": []
   }
 ]
-
-
-
