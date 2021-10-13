@@ -166,7 +166,7 @@
     "mithrilVersion": "2.0.0-rc.4",
     "dependencies": []
   },
-    {
+  {
     "name": "hexacode to rgb convertor",
     "tags": ["hexacode", "rgb", "convertor"],
     "description": "Simple hexacode to rgb convertor",
@@ -175,6 +175,15 @@
     "mithrilVersion": "2.0.4-rc.4",
     "dependencies": []
   }
+  {
+    "name": "Manage state using Mitosis pattern",
+    "tags": ["mitosis", "state", "component"],
+    "description": "Simple example using Mitosis to manage state. Mitosis is named after the equally awesome Meiosis pattern. Credits go to @porsager and @foxdonut.",
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4hcYgAIAysQyNJAXkkAKAJRKAfKuCS6AVwaJJABkms1AbgA6aW+KkBBasQj04SyRPkwtO25KSEGjUAE4wOEaqGora3oz4BgySANTKAIwUAZIAJjBhESLG6n7xMIm0hlIAtBm2FjZ2Ie5SAMKVwqGeKmUUkhgubmhwMZrZWCoA5DkQAG6TWWiBgROThOkLkpPtVTChk2qLy5KrAA6bZRVVh9krUwBG+sTE9Ju69NRQENQA1sYDrnc+GCBUiUnYWxSByOy1Wj2erz67xCX1+-0GQLyoJE5j6k2q0NuklahGgOR6ckYfQBQxG2TUtka9haxNJUBy3V6-Qxw1G4ymM3mMLuawATJttmycoSlrCpuc+pcklIAFSSUU3WUi+EvNBvSQfVF-bmA4bAkLhMG4yEy45wp66-WG77GmmY-KWnEQ-G2yQMtBMtBYfBYDrEFQ5WjUfRg-D3Wg5ACefRKsUkwGyDi8lN8gWUsh86kagSzbuGnmcprgFJ8Vls2XCxH0oSWulmEBgAHdiqNiWG9jWqSbaRpWI0GpQQHAYLAeQgeCZECZqgBmdKIFdsDggTA4PCJOACGj0RjMHhsAC6VC+aB+89QO64eCwEGIhFC0EnzfIPBIxFOcCIAA9EBhinD8ADmFRYEBL5vh+UAAAKivgJj4CusGvu+0AhsE+D8JOxCJqc3BTmEECnKIrAXqwQA",
+    "author": "@kevinfiol",
+    "mithrilVersion": "2.0.3",
+    "dependencies": []
+  }  
 ]
 
 
