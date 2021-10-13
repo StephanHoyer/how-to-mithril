@@ -142,7 +142,8 @@ function matchesFilter(example) {
     example.tags
       .concat([example.name, example.description])
       .join('')
-      .indexOf(currentFilter.q) < 0
+      .toLowerCase()
+      .indexOf(currentFilter.q.toLowerCase()) < 0
   ) {
     return false
   }
