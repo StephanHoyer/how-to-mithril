@@ -26,11 +26,10 @@ function tagView(tag, filterUpdates) {
 
 function linkView(filterUpdates, children) {
   return m(
-    'a',
+    m.route.Link,
     {
       className: filterUpdates.className || '',
-      href: getRouteByFilter(Object.assign({}, currentFilter, filterUpdates)),
-      oncreate: m.route.link,
+      href: getRouteByFilter(Object.assign({}, currentFilter, filterUpdates))
     },
     children
   )
