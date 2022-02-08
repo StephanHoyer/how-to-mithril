@@ -218,6 +218,15 @@
     "author": "@kevinfiol",
     "mithrilVersion": "2.0.3",
     "dependencies": []
+  },
+  {
+    "name": "Scrolled tab",
+    "tags": ["scrolling", "tabs"],
+    "description": "Scroll en element into view triggered by clicking a corresponding button",
+    "link": "https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4hcYgAIMABxmSAvJIAUASgUA+YAB00kybCnUArgCdTIgJKLJABgDcu-ReJm9OvfskA3CDADuiD6aHl5eLm6SWMraBP6msjIwprEUkshOYV7Rsfhw1Ka0UFAAtPGJyamSoVlhEgCesEEABv4QACbEhEEALLa2MgAe9pKEMBAA5iRBAIz9QyO03slgULT+JYNBGMbEtCPtEHAyUBj1Qasww5ITsrMWWPbNmbXs6S+16TMUAEwUAMwUHoUACsFAAbBQAOwUAAcFAAnABdfBYWTKCAhD6fSQRUx6HIEYgYABGVRqOLC9GMMnaGEYQWUxlUig01V02mInO5XN5PP5xAgYBUEEUShM5isLOM+HatCweQKRSglgYtAAan5-MpgCSYIQML5aKYgrE4FhaLQurFWKpHGgBY6+bz2NjKQ0mpJWh0ukEQQNrjIMO1DmgJkFbPgQQ9JDMHiMScb2slZkNJHAih1JCSoMYYPbKVkSRhqABrCaFYxodolOhrE2SAAkwAlFgY1gUSggAH5YhZ2rFELEZBA0KWbW6cc9PIW3s0c7Qy03gBBWM07ZOvLbN0jVBRN4T8CTdns0GUEnJKpR2TPPh6YC1DsdTudJJdrrcZPcYI9pzi3hkt61Mg3x-ICwJgpCMLwsiqLopiWibmEeIEjEBDHsQp7kkhWTEPUSSmiAGFYdeOF1HhnrNEGIajuGdhRjGcY-gmSYprGaYZlAWY5nmTz7kBnz0NQXFloy6iIQJOKtlYNgQAWhaSKwbwQBuklbqoO4aQJu4fKwmR6WgBm6AqFpVsQyhyiYOAMEetDtPUaSJHalAgHAMCwNQgr0AgPAzDMiA-LCbAcCAmA4Hg+DUHAAg0PQjDMDwbBIlQXFjj5qChVweBYBAXSmNALlmOQPAkMQMhwIgAD0lVVjI5aRfKlU5Xl0AAAI-PgkY9E1uWEPlUCoqO+D8C5eFJHg+T5TIoisEirBAA",
+    "author": "@shekharsom_twitter",
+    "mithrilVersion": "2.0.4",
+    "dependencies": []
   }  
 ]
 
